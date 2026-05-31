@@ -1386,7 +1386,7 @@ input[type="range"]::-webkit-slider-thumb:hover {
   color: var(--color-text-primary);
 }
 
-.footer-column a {
+.footer-column a:not(.social-link) {
   display: block;
   font-size: 0.9rem;
   color: var(--color-text-secondary);
@@ -1394,7 +1394,7 @@ input[type="range"]::-webkit-slider-thumb:hover {
   transition: color var(--transition-fast), transform var(--transition-fast);
 }
 
-.footer-column a:hover {
+.footer-column a:not(.social-link):hover {
   color: var(--color-accent);
   transform: translateX(4px);
 }
